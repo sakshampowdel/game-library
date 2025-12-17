@@ -1,5 +1,4 @@
 using backend.Data;
-using backend.Dtos;
 using backend.Endpoints;
 
 var builder = WebApplication.CreateBuilder(args);

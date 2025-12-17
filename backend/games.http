@@ -8,19 +8,19 @@ POST http://localhost:5093/games
 Content-Type: application/json
 
 {
-  "name": "Minecraft",
-  "genre": "Kids and Family",
-  "price": 19.99,
-  "releaseDate": "2011-11-18"
+  "name": "Civilization VI",
+  "genreId": 1,
+  "price": 59.99,
+  "releaseDate": "2016-10-21"
 }
 
 ###
-PUT http://localhost:5093/games/1
+PUT http://localhost:5093/games/4
 Content-Type: application/json
 
 {
   "name": "Civilization VI (Sale)",
-  "genre": "4X",
+  "genreId": 1,
   "price": 29.99,
   "releaseDate": "2016-10-21"
 }
